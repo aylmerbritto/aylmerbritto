@@ -3,7 +3,7 @@ section:
   name: Experiences
   id: experiences
   enable: true
-  weight: 3
+  weight: 2
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true 
@@ -11,54 +11,43 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    name: yknot-Concepts
+    overview: 'Co-founded and currently heading multpile projects that focusses on human-computer interaction. Building open source
+    projects and also designing architectures that helps people percieve artificial intelligence on competitive edge devices. Hence making it 
+    available for evrybody on the face of this planet <br>
+    Currently we are a small team of 10 Engineers , 1 graphic designer and a product designer.'
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
+  - designation: Co-Founder & CTO
+    start: March 2020
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
-
+    - <a href="https://thedesign.app/dashboard">thedesign.app</a> (Under construction and is expected to release on Christmas eve)<br> 
+      - Targetted for merchants and indepedent freelancers who own their own business and are trying to make progress online
+      in this pandemic season. It facilitates a platform for the clients to place an order in their merchant site and also
+      follow the progress of their order. It also helps to manage multiple freelancers with one supervisor to assign them tasks and 
+      monitor them.<br>
+      - Although this first version of the project is aimed for free lancing graphic designers we will be making it opensource and 
+      will be releasing a framework where any independent professionalists like attornies, content-writers can modify content and use it like zammad. <br>
+      - To make the adoption easier we will be releasing our <b>white paper in arxiv</b> and attempt to setup a forum with support team.
+    - theGreetDoll <br>
+      - This is a small AI-customised gift made of cardboard. When you a particular person is at the table it recognises them and 
+      wishes them. <br>
+      - The best part about the greetDoll is that the manufacturing cost is less than 10$ and is independent of any cloud servers <br>
+      - Configuration and Inferencing is done on the edge device. <br>
+      - This also contains a easily configurable Digital-slam Book.
+    - theRealSmartSwitch<br>
+      - We are making a smart switch that does not require to rewire the entire building to make it smart. We are making a detachable hook-bot
+      that runs a servers on its own and communicates with the inmates of the house through mobile app and voice assitants like Goolge and Alexa. <br>
+      - The estimated manufacturing cost is less than 4$
 - company:
-    name: PreExample Co.
+    name: Capillary Technologies
     url: "https://www.preexample.com"
-    location: Nowhere
+    location: Bangalore
     overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: AI-Systems Engineer
+    start: March 2019
     responsibilities:
     - Write lots of example codes.
     - Read lots of examples.
     - See lots of example videos.
-
-- company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.intern.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
-  positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
-    responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - <h1>Rest of the contents are being revised. Would be really great if you visit after 3rd Dec</h1>
