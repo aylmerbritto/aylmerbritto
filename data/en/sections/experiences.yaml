@@ -40,14 +40,79 @@ experiences:
       - The estimated manufacturing cost is less than 4$
 - company:
     name: Capillary Technologies
-    url: "https://www.preexample.com"
+    url: https://www.capillarytech.com/products/smart-store-plus/
     location: Bangalore
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    overview: Our products involve developing systems
+     that involves Artificial intelligent solutions that improves Customer-Retailer relationship.
+      This involves studying the customer counts, their demographics and their activity in the store 
+      and coming up with suggestions to improve shopping experience.
   positions:
-  - designation: AI-Systems Engineer
-    start: March 2019
+  - designation: AI-Systems Engineer, Instore AI and Customer Intelligence Team
+    start: Dec 2019
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
-    - <h1>Rest of the contents are being revised. Would be really great if you visit after 3rd Dec</h1>
+      - Smart Store Team <br>
+        - Design customer facing system architectures for edge computing devices to acquire data and communicate with the data hub. <br>
+            - Involves system security and the way it self configures itself to send heartbeat, report  anomality and smooth auto-installation of new packages if available in the deployer. <br>
+        - Make ease of operations features. <br>
+            - To build IoT based debugging features on the device. So that if the system goes down remote-debugging can be done. 
+        - Desiging a univeral inference engine that interprets any heavy Deep learning models on low compute edge devices. 
+      - Customer Intelligence Team <br>
+        - Design and maintain AWS based system architectures to train and infer customer data using big data tools like hadoop, spark. <br>
+        - Data Engineering on heavy datasets to make sure that analysis is happening smoothly without any stress on the inference engines. <br>
+        - Also improve e-commerce based propensity models that recommends products or recommends the right promotion content or the promotion
+        time slot for the target user to receive the message so he responds appropriately.
+- company:
+    name: Euro Exim Bank
+    location: Reporting Office London
+    overview: Delivered research and realtime projects on cutting-edge technologies. Also involves market research which to analyse the audacity of particular technologies for the bank to invest and build products.
+  positions:
+  - designation: Strategic Investment Intern
+    start: Apr 2019
+    end: Dec 2019
+    responsibilities:
+      -  Brain Computing Interface - Develop systems to tap EEG signals and export them to proper waveforms with relevant pre-processing. The acquired data was used for creating a feedback system for brain therapeutic machines that help us calm down and meditate.
+      - Bone Conduction <br>
+        - Develop minute spying devices that works on bluetooth and bone conduction transducers <br>
+        - Develop bone conduction microphones that outperforms throat microphones at extremely high noise environments
+      - Pizza Vending Robot - To design an industrial standard, robot ecosystem that receives customer orders, cook the pizza and deliver it to them. The system also included a rail bot that can brings the vendor bot the required elements on demand.
+
+
+- company:
+    name: Euro Exim Bank
+    location: Reporting Office London
+    overview: Delivered research and realtime projects on cutting-edge technologies. Also involves market research which to analyse the audacity of particular technologies for the bank to invest and build products.
+  positions:
+  - designation: Strategic Investment Intern
+    start: Apr 2019
+    end: Dec 2019
+    responsibilities:
+      -  Brain Computing Interface - Develop systems to tap EEG signals and export them to proper waveforms with relevant pre-processing. The acquired data was used for creating a feedback system for brain therapeutic machines that help us calm down and meditate.
+      - Bone Conduction <br>
+        - Develop minute spying devices that works on bluetooth and bone conduction transducers <br>
+        - Develop bone conduction microphones that outperforms throat microphones at extremely high noise environments
+      - Pizza Vending Robot - To design an industrial standard, robot ecosystem that receives customer orders, cook the pizza and deliver it to them. The system also included a rail bot that can brings the vendor bot the required elements on demand.
+
+- company:
+    name: Einnel Technologies
+    location: Chennai
+    Overview: Data analysis for 'Vehicle synthesis and analysis simulation – Crash, NVH, Durability & CFD'
+  positions:
+  - designation: Data Analyst Intern
+    start: Jun 2018
+    end: Jul 2018
+    responsibilities:
+      -  Developed an interface  for my team's mechanical engineers that does multivariable-optimisation techniques on huge car-crash datasets
+
+- company:
+    name: Nokia Solutions and Networks
+    location: Chennai
+  positions:
+  - designation: IoT Developer, Test-Developments team
+    start: Apr 2018
+    end: Nov 2018
+    responsibilities:
+      -  Designed and implemented 'Universal Overall Engine effectiveness Module' (UOEE module). <br> 
+        - Replaced NI-6501s that was very hard for the technicians to interact with. <br>
+        - UOEE module cut several costs with respect to components and maintenance
+        - The new system had UI that made the technicians life better 10x and gave a better perspective of the system.<br>
+        <H1> Site's content under revision. Please revisit after Dec 7.
