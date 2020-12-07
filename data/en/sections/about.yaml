@@ -20,8 +20,8 @@ resume: "files/resume.pdf"
 # a summary about you
 summary: 'I am an ENGINEER who has always fantacised about ways machines communicate with human-beings.
 During the day I am one happy AI-Systems engineer at Capillary technologies and in the dark I head a bunch 
-of fun projects at yKnot-concepts. :)'
-
+of fun projects at yKnot-concepts. :)
+<H1> Sorry for the inconvenience. contents of this site is under revision and it would be really great if you could have a visit after Dec 8.'
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
@@ -59,15 +59,19 @@ softSkills:
 - name: Collabrative
   percentage: 90
   color: yellow
-- name: Communication
-  percentage: 85
-  color: pink
-- name: Design Thinking
-  percentage: 85
-  color: green
 - name: Time conscience
   percentage: 85
   color: sky
+- name: Design Thinking
+  percentage: 85
+  color: green
+- name: Systematization
+  percentage: 85
+  color: pink
+- name: Optimization
+  percentage: 85
+  color: orange
+
 #- name: Process Definition
 #  percentage: 85
 #  color: orange

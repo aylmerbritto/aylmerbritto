@@ -2,8 +2,8 @@
 section:
   name: Skills
   id: skills
-  enable: false
-  weight: 3
+  enable: true
+  weight: 4
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -11,39 +11,53 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  icon: "/images/sections/skills/kubernetes.png"
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
-
-- name: Go Development
-  icon: "/images/sections/skills/go.png"
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
 
 - name: Cloud Computing
   icon: "/images/sections/skills/cloud.png"
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+  summary: "Working with AWS. Building and maintining applications that are business facing."
 
 - name: Docker
   icon: "/images/sections/skills/docker.svg"
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+  summary: "As a systems engineer I have contributed making multiple dockerised applications. Have also created out of the box embedded - applications using docker"
   url: "https://www.docker.com/"
 
-- name: Prometheus
-  icon: "/images/sections/skills/prometheus.png"
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  url: "https://prometheus.io/"
 
 - name: Linux
   icon: "/images/sections/skills/linux.png"
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+  summary: "Been using as the main operating system for more than an year now. Capable of writing bash/shell scripts to automate daily tasks."
 
 - name: Git
   icon: "/images/sections/skills/git.png"
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  summary: "Experienced with git-based development."
   url: "https://git-scm.com/"
 
 - name: C++
   icon: "/images/sections/skills/c++.png"
   summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+
+- name: python
+  icon: "/images/sections/skills/python.svg"
+  summary: "Comfortably building python applications for over three years now. Have worked on modules involving pandas, cv2, sklearn and django."
+
+- name: lua
+  icon: "/images/sections/skills/lua.svg"
+  summary: "Able to make light weight API servers using lapis framework for small edge devices"
+
+- name: MATLAB
+  icon: "/images/sections/skills/matlab.png"
+  summary: "Worked on Digital signal processing projects as part of the curriculum. With matlab scripts doing the processing the actions were 
+  communicted to mcu through serial communication. The initial designs and simluations were done in SIMULINK"
+
+- name: JIRA
+  icon: "/images/sections/skills/jira.svg"
+  summary: "Have worked as well as managed projects with JIRA plannings"
+
+- name: Embedded Systems
+  icon: "/images/sections/skills/es.svg"
+  summary: "Its too much of a domain than a skill. But I have always loved exploring new micro-controller units and designing economic application architectures
+  that involves artificial intelligent solutions"
+
+- name: Data Engineering and Analysis
+  icon: "/images/sections/skills/de.svg"
+  summary: "This involves most of my tasks at Customer intelligence team in capillary. I work with Databricks notebooks, flintrock and other big data tools like
+  pyspark, HDFS along with AWS S3"

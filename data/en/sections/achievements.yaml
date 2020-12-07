@@ -2,7 +2,7 @@
 section:
   name: Achievements
   id: achievements
-  enable: false
+  enable: true
   weight: 6
   showOnNavbar: true
   # Can optionally hide the title in sections
@@ -10,15 +10,16 @@ section:
 
 # Your achievements achievements
 achievements:
-- title: Best Presenter
-  image: /images/sections/achievements/presenter.jpg
-  summary: Best presenter in the 2020 XYZ conference.
-- title: Champion
-  image: /images/sections/achievements/sport.jpg
-  summary: Champion in cycling inter-city cycling championship 2020.
-- title: Graduation
-  image: /images/sections/achievements/graduation-cap.jpg
-  summary: Received Bachelor of Science (B.Sc.) in Computer Science and Engineer from XYZ University.
-- title: Award Winner
-  image: /images/sections/achievements/woman-winner.jpg
-  summary: Wined best paper award at IEE Conference 2020.
+- title: Best Student Paper Award, National University of Singapore
+  image: /images/sections/achievements/nus.jpg
+  summary: Recieved the best student award in ICIRSTM at National University of Singapore for presenting Design and Analysis of a Novel IOT Controlled Bio-mimetic Robotic Fish
+- title: Best Project Award
+  image: /images/sections/achievements/bestProject.jpg
+  summary: Received Best Project award of the school award on University day for the project, Smart Garbage systems
+- title: IEEE Student Fund Winner
+  image: /images/sections/achievements/spf.jpeg
+  summary: Won the Project Funded by IEEE Madras Section for LoRaWAN based SMART IRRIGATION MANAGEMENT SYSTEM USING
+      MACHINE LEARNING
+- title: Others
+  image: /images/sections/achievements/hackathon.jpg
+  summary: Winner of ROBOMAZE, NOKIA IoT Make-a-thon,  and runner up in Wireless Devices/Communication Make-a-thon and Makers Gonna Make all inter-college competitions
