@@ -12,23 +12,23 @@ section:
 experiences:
 - company:
     name: Techcorats Robotics
-    overview: 'Technocrats Robotics is the official robotics team of VIT Chennai which participates in ABU-Robocon and Indian-Rover Challenge.'
+    overview: 'Technocrats Robotics is the official robotics team of VIT Chennai which participates in ABU-Robocon and Indian-Rover Challenge.<br> Stories to tell'
   positions:
   - designation: Electrical Engineer
     start: March 2017
     end: March 2018
-    responsibilities:
-    - stories to tell
+    #responsibilities:
+    #- stories to tell
   - designation: Electrical - Head of the Department
     start: March 2018
     end: March 2019
-    responsibilities:
-    - more stories to tell
+    #responsibilities:
+    #- more stories to tell
   - designation: Adivisory Board
     start: March 2019
     end: March 2020
-    responsibilities:
-    - more more stories to tell
+    #responsibilities:
+    #- more more stories to tell
 - company:
     name: IEEE Computer Society
     location: Chennai
@@ -36,7 +36,5 @@ experiences:
     would come in to learn and build products that they were fascinated about and also delivers some meaning to the society'
   positions:
   - designation: Co-Founder | Overall Projecets Head
-    start: March 2019
-    end: March 2020
-    responsibilities:
-      - Stories to tell
+    start: Aug 2018
+    end: March 2020s

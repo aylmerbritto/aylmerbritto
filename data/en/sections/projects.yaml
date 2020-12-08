@@ -44,13 +44,44 @@ projects:
   issue in the country I come from'
   tags: ["academic"]
 
-- name: theGreetDoll
+- name: Bone Conduction Microphone - Speaker Recognition
   logo: /images/sections/projects/no-code.png
   role: Contributor
+  timeline: "Sept 2018 - Mar 2019"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: 'An attempt to develop a bone conduction microphone similar to throat microphone which comes handy in highly noise environments. With the acquired bone voices
+  we bult a voice reco-system with vgg-vox as our base model'
+  tags: ["academic"]
+
+- name: theGreetDoll
+  logo: /images/sections/projects/no-code.png
+  role: Tech Lead
   timeline: "June 2020 - Ongoing"
   #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: 'This is an AI-based gift doll. In this there runs a server that hosts a webpage which is like a digital slam book. The
   part is recognises a person particular face and reacts when they are in proximity. The whole thing had to be designed on the edge device
   so that the people are not worried about the privacy issue.'
+  tags: ["hobby"]
+
+
+- name: Crop-Yield Production
+  logo: /images/sections/projects/no-code.png
+  role: Contributor
+  timeline: "April 2019 - Sept 2019"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: 'Synthesized our dataset for the project. Developed a time-series model that predicts the crop-yield and environment condition which would help real-time system 
+  to improve the harvest of that season. We used LORA-WAN architecture in the real-time system'
+  tags: ["academic"]
+
+- name: iotBased Plate Balance Game
+  logo: /images/sections/projects/no-code.png
+  role: Tech Lead
+  timeline: "June 2020 - Ongoing"
+  #repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: 'Developed a unity game and integrated with a custom gaming console. The game is basically to balance a plate-shaped console in response to the balls that are falling 
+  on the game screen. It was developed to attract crowds to the registration desk during the technical fest'
   tags: ["hobby"]
