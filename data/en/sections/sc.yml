@@ -11,8 +11,9 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Techcorats Robotics
-    overview: 'Technocrats Robotics is the official robotics team of VIT Chennai which participates in ABU-Robocon and Indian-Rover Challenge.<br> Stories to tell'
+    name: Technorats Robotics
+    overview: 'Technocrats Robotics is the official robotics team of VIT Chennai which participates in ABU-Robocon and Indian-Rover Challenge.<br> Stories to tell<br>
+    <a href="https://aylmerbritto.com">Briefing my experiences in a seperate page and would share here soon :)</a>'
   positions:
   - designation: Electrical Engineer
     start: March 2017
@@ -33,7 +34,8 @@ experiences:
     name: IEEE Computer Society
     location: Chennai
     overview: 'Co-Founded this society with couple of my best friends Krishnkumar M and Adithya Narayan to build an environment where people from various diciplines 
-    would come in to learn and build products that they were fascinated about and also delivers some meaning to the society'
+    would come in to learn and build products that they were fascinated about and also delivers some meaning to the society<br>
+    <a href="https://aylmerbritto.com">Briefing my experiences in a seperate page and would share here soon :)</a>'
   positions:
   - designation: Co-Founder | Overall Projecets Head
     start: Aug 2018
