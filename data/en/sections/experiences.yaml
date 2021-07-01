@@ -59,6 +59,12 @@ experiences:
   - designation: AI-Systems Engineer, Instore AI and Customer Intelligence Team
     start: Dec 2019
     responsibilities:
+      - Five patents to be filed titled as
+        - A contemporary approach for Industrial IoT software packaging, encryption and distribution
+        - An architecture for mass Industrial IoT devices management with more security and operation ease
+        - Synchronised co-processor architecture for retailer's demography data acquisition
+        - IoT cum Vision-based solution for device localization in remote fields
+        - AI-Devices Assembly for person detection with superlative performance
       - Smart Store Team <br>
         - Design customer facing system architectures for edge computing devices to acquire data and communicate with the data hub. <br>
             - Involves system security and the way it self configures itself to send heartbeat, report  anomality and smooth auto-installation of new packages if available in the deployer. <br>
