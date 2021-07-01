@@ -11,6 +11,15 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: ai4Good
+    overview: 'AI for Good is driving forward technological solutions that measure and advance the UN’s Sustainable Development Goals. We create impact by bringing together a broad network of interdisciplinary researchers, nonprofits, governments, and corporate actors to identify, prototype and scale solutions that engender positive change. Founded in 2015 by a team of Machine Learning and Social Science Researchers in the US and Europe, AI for Good is headquartered in Berkeley, California with an international network of core team members, partners and volunteers supporting our work. '
+  positions:
+  - designation: AI systems Architect
+    start: Feb 2021
+    responsibilities:
+    - I Work on the <a href = https://www.aiforgoodsimulator.com/> aiforgoodsimulator </a> which  is a web tool for NGOs and local authorities to model COVID-19 and other epidemics inside refugee camps and prepare timely and proportionate response measures needed to flatten the curve and reduce the number of fatalities. This tool is designed to help humanitarian workers prevent the worst outbreak scenarios and design an optimal intervention strategy. 
+    - My responsibility is to build system with the best process and system optimisation techniques that are most required for the application.
+- company:
     name: yknot-Concepts
     overview: 'Co-founded the team and currently heading multpile projects that focusses on human-computer interaction. Building open source
     projects and also designing architectures that helps people percieve artificial intelligence on competitive edge devices. Hence making it 
@@ -20,7 +29,7 @@ experiences:
   - designation: Co-Founder & CTO
     start: March 2020
     responsibilities:
-    - <a href="https://thedesign.app/dashboard">thedesign.app</a> (Under construction and is expected to release on Christmas eve)<br> 
+    - thedesign.app (Under construction and is expected to release on Christmas eve)<br> 
       - Targetted for merchants and indepedent freelancers who own their own business and are trying to make progress online
       in this pandemic season. It facilitates a platform for the clients to place an order in their merchant site and also
       follow the progress of their order. It also helps to manage multiple freelancers with one supervisor to assign them tasks and 
