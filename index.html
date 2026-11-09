@@ -5,7 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Aylmer Britto Rex Harison</title>
 <meta name="description" content="Aylmer Britto Rex Harison — Senior Software Engineer, Autonomy at Rivian. Distributed computing for robotics. CMU.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%231f6f5c'/><text x='16' y='22' font-family='system-ui' font-size='16' font-weight='700' fill='white' text-anchor='middle'>A</text></svg>">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<meta property="og:image" content="img/hero.jpg">
 <style>
 :root{
   --bg:#fbfaf7; --surface:#ffffff; --text:#1c1c1a; --muted:#5f5e58; --faint:#8a8880;
@@ -30,12 +32,18 @@ nav{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--bg) 88%,
     backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 nav .wrap{display:flex;align-items:center;gap:20px;height:56px;overflow-x:auto;scrollbar-width:none}
 nav .wrap::-webkit-scrollbar{display:none}
-nav .brand{font-weight:700;color:var(--text);text-decoration:none;margin-right:auto;white-space:nowrap}
+nav .brand{display:flex;align-items:center;gap:10px;font-weight:700;color:var(--text);text-decoration:none;margin-right:auto;white-space:nowrap}
+nav .brand img{height:26px;width:auto;display:block}
+@media (prefers-color-scheme:dark){nav .brand img{filter:invert(1)}}
 nav a.link{color:var(--muted);text-decoration:none;font-size:14px;white-space:nowrap}
 nav a.link:hover{color:var(--text)}
 
 /* hero */
-header.hero{padding:88px 0 56px}
+header.hero{padding:28px 0 56px}
+.banner{position:relative;margin:0 0 64px}
+.banner > img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:14px;border:1px solid var(--line)}
+.banner .avatar{position:absolute;left:20px;bottom:-44px;width:104px;height:104px;border-radius:50%;object-fit:cover;background:#fff;border:4px solid var(--bg);box-shadow:0 2px 10px rgb(0 0 0 / .12)}
+@media (max-width:600px){.banner{margin-bottom:56px}.banner .avatar{width:84px;height:84px;bottom:-36px;left:14px}}
 .hero .hi{font-family:var(--mono);color:var(--accent);font-size:14px;margin:0 0 12px}
 .hero h1{font-size:clamp(34px,7vw,54px);line-height:1.08;letter-spacing:-.025em;margin:0 0 14px}
 .hero .role{font-size:20px;color:var(--muted);margin:0 0 6px}
@@ -89,12 +97,23 @@ p{margin:0 0 14px}
 
 /* skills */
 .skills{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:20px 28px}
+.skills > div{display:grid;grid-template-columns:40px 1fr;gap:0 14px;align-items:start}
+.skills .ic{width:40px;height:40px;border-radius:10px;background:#fff;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;gap:2px;grid-row:span 2}
+.skills .ic img{width:24px;height:24px;object-fit:contain}
+.skills .ic.two img{width:16px;height:16px}
+.skills .ic.none{background:var(--accent-soft);border-color:transparent;color:var(--accent);font-weight:700;font-size:14px}
 .skills h3{font-size:15px;margin:0 0 4px}
 .skills p{font-size:14px;color:var(--muted);margin:0}
 
 /* achievements */
-.ach{list-style:none;padding:0;margin:0;display:grid;gap:20px}
-.ach li{padding-left:18px;border-left:2px solid var(--accent)}
+.ach{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px}
+@media (max-width:400px){.ach{grid-template-columns:1fr}}
+.ach li{background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}
+.ach li.wide{grid-column:1/-1}
+.ach figure{margin:0;aspect-ratio:4/3;background:#fff;border-bottom:1px solid var(--line)}
+.ach figure img{width:100%;height:100%;object-fit:cover;display:block}
+.ach figure.logo img{object-fit:contain;padding:28px}
+.ach .txt{padding:16px 18px 18px}
 .ach h3{font-size:16px;margin:0 0 4px}
 .ach p{font-size:15px;color:var(--muted);margin:0}
 
@@ -107,7 +126,7 @@ footer a{color:var(--muted)}
 
 <nav>
   <div class="wrap">
-    <a class="brand" href="#top">aylmer</a>
+    <a class="brand" href="#top"><img src="img/logo.png" alt="" width="160" height="108">aylmer</a>
     <a class="link" href="#about">About</a>
     <a class="link" href="#experience">Experience</a>
     <a class="link" href="#education">Education</a>
@@ -120,6 +139,10 @@ footer a{color:var(--muted)}
 <main class="wrap" id="top">
 
   <header class="hero">
+    <div class="banner">
+      <img src="img/hero.jpg" alt="Illustration: a robotic hand and a human hand reaching toward each other" width="1800" height="1010" fetchpriority="high">
+      <img class="avatar" src="img/avatar.jpg" alt="Aylmer's cartoon avatar" width="320" height="320">
+    </div>
     <p class="hi">Hi, I am</p>
     <h1>Aylmer Britto Rex Harison</h1>
     <p class="role">Senior Software Engineer, Autonomy at Rivian</p>
@@ -282,26 +305,33 @@ footer a{color:var(--muted)}
   <section id="skills">
     <h2>Skills</h2>
     <div class="skills">
-      <div><h3>Distributed Systems</h3><p>Scalable compute and data infrastructure for robotics and autonomy.</p></div>
-      <div><h3>MLOps</h3><p>CI/CD, TDD and container orchestration for ML on cloud stacks.</p></div>
-      <div><h3>Data Engineering / ETL</h3><p>PySpark, Databricks Delta tables, Argo pipelines; terabytes a day.</p></div>
-      <div><h3>Edge Computing</h3><p>Deep learning on NVIDIA Jetson, Raspberry Pi and custom IoT hardware.</p></div>
-      <div><h3>Python</h3><p>Production services, data tooling and ML: pandas, OpenCV, scikit-learn, LangChain.</p></div>
-      <div><h3>Cloud &amp; Containers</h3><p>AWS, Docker, Kubernetes.</p></div>
-      <div><h3>Embedded &amp; IoT</h3><p>MCUs, LoRaWAN, sensor data acquisition, economical hardware architectures.</p></div>
-      <div><h3>Also</h3><p>C/C++, Lua (Lapis), Linux &amp; shell, MATLAB/DSP.</p></div>
-      <div><h3>Languages</h3><p>Tamil (native), English (professional), German (elementary).</p></div>
+      <div><span class="ic"><img src="img/skills/kubernetes.png" alt=""></span><h3>Distributed Systems</h3><p>Scalable compute and data infrastructure for robotics and autonomy.</p></div>
+      <div><span class="ic"><img src="img/skills/docker.svg" alt=""></span><h3>MLOps</h3><p>CI/CD, TDD and container orchestration for ML on cloud stacks.</p></div>
+      <div><span class="ic"><img src="img/skills/data-eng.svg" alt=""></span><h3>Data Engineering / ETL</h3><p>PySpark, Databricks Delta tables, Argo pipelines; terabytes a day.</p></div>
+      <div><span class="ic"><img src="img/skills/embedded.svg" alt=""></span><h3>Edge &amp; Embedded</h3><p>Deep learning on NVIDIA Jetson and Raspberry Pi; MCUs, LoRaWAN and economical IoT hardware.</p></div>
+      <div><span class="ic"><img src="img/skills/python.svg" alt=""></span><h3>Python</h3><p>Production services, data tooling and ML: pandas, OpenCV, scikit-learn, LangChain.</p></div>
+      <div><span class="ic"><img src="img/skills/cloud.png" alt=""></span><h3>Cloud</h3><p>AWS architectures for training and inference on big data.</p></div>
+      <div><span class="ic"><img src="img/skills/linux.png" alt=""></span><h3>Linux</h3><p>Daily driver; shell scripting to automate everything.</p></div>
+      <div><span class="ic"><img src="img/skills/cpp.png" alt=""></span><h3>C / C++</h3><p>Systems code, contest programming and problem solving.</p></div>
+      <div><span class="ic"><img src="img/skills/lua.svg" alt=""></span><h3>Lua</h3><p>Lightweight API servers with Lapis on small edge devices.</p></div>
+      <div><span class="ic"><img src="img/skills/matlab.png" alt=""></span><h3>MATLAB</h3><p>Digital signal processing.</p></div>
+      <div><span class="ic two"><img src="img/skills/git.png" alt=""><img src="img/skills/jira.svg" alt=""></span><h3>Git &amp; JIRA</h3><p>Git-based development; planned and managed projects in JIRA.</p></div>
+      <div><span class="ic none">Aa</span><h3>Languages</h3><p>Tamil (native), English (professional), German (elementary).</p></div>
     </div>
   </section>
 
   <section id="achievements">
     <h2>Awards</h2>
     <ul class="ach">
-      <li><h3>Best Employee of the Year 2021</h3><p>Capillary Technologies.</p></li>
-      <li><h3>Best Student Paper, National University of Singapore</h3><p>At ICIRSTM, for <i>Design and Analysis of a Novel IoT-Controlled Bio-mimetic Robotic Fish</i>.</p></li>
-      <li><h3>IEEE Student Project Fund</h3><p>Funded by IEEE Madras Section for a LoRaWAN-based smart irrigation management system using machine learning.</p></li>
-      <li><h3>Best Project Award, VIT</h3><p>University Day award for the Smart Garbage System.</p></li>
-      <li><h3>Competitions</h3><p>Winner of ROBOMAZE and the Nokia IoT Make-a-thon; runner-up in the Wireless Devices/Communication Make-a-thon and Makers Gonna Make.</p></li>
+      <li><figure><img src="img/nus.jpg" alt="Receiving the best student paper trophy at NUS" loading="lazy" width="900" height="675"></figure>
+        <div class="txt"><h3>Best Student Paper, National University of Singapore</h3><p>At ICIRSTM, for <i>Design and Analysis of a Novel IoT-Controlled Bio-mimetic Robotic Fish</i>.</p></div></li>
+      <li><figure><img src="img/university-day.jpg" alt="Receiving the Best Project award on stage at VIT Chennai University Day, 2 April 2019" loading="lazy" width="1000" height="750"></figure>
+        <div class="txt"><h3>Best Project Award, VIT</h3><p>University Day 2019, for the Smart Garbage System.</p></div></li>
+      <li><figure class="logo"><img src="img/ieee.jpg" alt="IEEE logo" loading="lazy" width="207" height="249"></figure>
+        <div class="txt"><h3>IEEE Student Project Fund</h3><p>Funded by IEEE Madras Section for a LoRaWAN-based smart irrigation management system using machine learning.</p></div></li>
+      <li><figure class="logo"><img src="img/hackathon.jpg" alt="Hackathon illustration" loading="lazy" width="480" height="360"></figure>
+        <div class="txt"><h3>Competitions</h3><p>Winner of ROBOMAZE and the Nokia IoT Make-a-thon; runner-up in the Wireless Devices/Communication Make-a-thon and Makers Gonna Make.</p></div></li>
+      <li class="wide"><div class="txt"><h3>Best Employee of the Year 2021</h3><p>Capillary Technologies.</p></div></li>
     </ul>
   </section>
 
